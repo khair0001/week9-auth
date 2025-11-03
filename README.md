@@ -2,6 +2,8 @@
 
 ### NIM : F1D02310001
 
+### Mata Kuliah : Pemrograman Web Lanjut
+
 ---
 ## Week 9
 ### Auth
@@ -27,48 +29,40 @@ membuat program dengan mengimplementasikan authentifikasi, ini merupakan lanjuta
 module utamanya yaitu **jwt** untuk menggenerate token, dan **bcrypt** digunakan untuk menghash password
 ### variasi dari tambahan saya
 - auth dengan google
+
+- ***Untuk yang tidak menggunakan Auth google, ada di mini project Minggu lalu :***
+``` js
+https://github.com/khair0001/pwl25-mini-project
+```
 ### Struktur Folder Project
 
 ```
-
-|── package.json
-
 ├── src/
-
-│   ├── app.js
-
-│   ├── config/
-
-│   │   └── db.js
-
-│   ├── controllers/
-
-│   │   ├── authController.js
-
-│   │   └── bookController.js
-
-│   ├── models/
-
-│   │   └── bookModel.js
-
-│   ├── routes/
-
-│   │   ├── authRouter.js
-
-│   │   └── bookRouter.js
-
-│   └── middleware/
-
-│       ├── authvalidate.js
-
-│       ├── bookValidate.js
-
-│       ├── errorHandler.js
-
-│       └── log.js
-
+│   ├── app.js               
+│   ├── config/
+│   │   ├── db.js            
+│   │   └── googleAuth.js    
+│   ├── controllers/         
+│   │   ├── authController.js
+│   │   ├── bookController.js
+│   │   └── userController.js
+│   ├── models/              
+│   │   ├── bookModel.js     
+│   │   └── userModel.js     
+│   ├── routes/              
+│   │   ├── authRouter.js    
+│   │   ├── bookRouter.js    
+│   │   └── userRouter.js    
+│   └── middleware/          
+│       ├── authvalidate.js  
+│       ├── bookValidate.js  
+│       ├── userValidate.js  
+│       ├── errorHandler.js  
+│       └── log.js           
+├── .env.example             
+├── .gitignore
+├── package.json
 └── README.md
-
 ```
 
 
