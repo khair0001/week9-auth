@@ -30,7 +30,7 @@ module utamanya yaitu **jwt** untuk menggenerate token, dan **bcrypt** digunakan
 ### variasi dari tambahan saya
 - auth dengan google
 
-- ***Untuk yang tidak menggunakan Auth google, ada di mini project Minggu lalu :***
+### ***Untuk yang tidak menggunakan Auth google, ada di mini project Minggu lalu :***
 ``` js
 https://github.com/khair0001/pwl25-mini-project
 ```
