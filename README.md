@@ -78,7 +78,7 @@ module utamanya yaitu **jwt** untuk menggenerate token, dan **bcrypt** digunakan
 
 ``` bash
 
-git clone https://github.com/khair0001/pwl25-mini-project
+git clone https://github.com/khair0001/week9-auth
 
 ```
 
