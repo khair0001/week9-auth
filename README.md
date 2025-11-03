@@ -32,7 +32,7 @@ module utamanya yaitu **jwt** untuk menggenerate token, dan **bcrypt** digunakan
 
 ### ***Untuk yang tidak menggunakan Auth google, ada di mini project Minggu lalu :***
 ``` js
-https://github.com/khair0001/pwl25-mini-project
+[Mini Projek UTS](https://github.com/khair0001/pwl25-mini-project)
 ```
 ### Struktur Folder Project
 
